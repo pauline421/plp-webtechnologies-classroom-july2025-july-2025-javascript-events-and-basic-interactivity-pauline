@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JS Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="text-align: center;">Interactive Web Pages with JavaScript</h1>
+  <section>
+    <h2>Part 1: JavaScript Event Handling and Interactive Elements</h2>
+    <button id="Btn">Try to click</button>
+    <p id="message"></p>
+  </section>
+  <section>
+    <h2>Part 2: Building Interactive Elements</h2>
+    <button id="theme">Try Switching to Black</button>
+    
+  </section>
+  <section>
+    <h2>Part 3: Form Validation with JavaScript</h2>
+    <form id="Form">
+        <table align="left">
+            <tr>
+      <td><label>Name: </td><td><input type="text" id="name"></label><span class="error" id="nameError"></span></td></tr>
+      <tr><td><label>Email: </td><td><input type="text" id="email"></label><span class="error" id="emailError"></span></td></tr>
+      <tr><td><label>Password: </td><td><input type="password" id="password"></label><span class="warning" id="passwordError"></span></td> </tr>
+      <tr>
+      <td><label>Confirm Password: </td><td><input type="password" id="confirmPassword"></label><span class="error" id="confirmError"></span></td></tr>
+      <tr><td><button type="submit" >Submit</button></td></tr>
+      </table>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: left;
+  transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+  background: #100f0f;
+  color: white;
+}
+.warning {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+
